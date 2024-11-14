@@ -1,0 +1,125 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #ff66b2; /* Ice Cream Pink */
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background: url(https://www.shutterstock.com/image-photo/pastel-colored-ice-cream-scoops-260nw-2329930957.jpg) no-repeat center center/cover;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+  }
+  
+  .hero .btn {
+    background-color: #ff66b2;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero .btn:hover {
+    background-color: #ff3399;
+  }
+  
+  /* Ice cream flavors section styles */
+  .flavors {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .flavors h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .flavor-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .flavor {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .flavor img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flavor h3 {
+    margin-top: 10px;
+    font-size: 1.25rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
